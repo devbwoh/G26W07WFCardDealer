@@ -5,7 +5,7 @@ namespace G26W07WFCardDealer {
         }
 
         private void OnDeal(object sender, EventArgs e) {
-            String name = "10_of_clubs";
+            String name = "10_of_diamonds";
 
             Card1.Image = Properties.Resources.ResourceManager
                 .GetObject(name) as Image
